@@ -2,8 +2,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 
 public class Cat {
-    @Autowired
-    private Environment environment;
+
     private String message;
 
     public Cat() {
